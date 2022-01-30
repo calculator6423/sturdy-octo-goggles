@@ -7,13 +7,13 @@
     var finalBmi = weight/(height/100*height/100)
     document.bmiForm.bmi.value = finalBmi
     if(finalBmi < 18.5){
-    document.bmiForm.meaning.value = <a href="beginner.html">Your excercise plan!</a>
+    document.bmiForm.meaning.value = Please select our beginner or intermediate program.
     }
     if(finalBmi > 18.5 && finalBmi < 25){
-    document.bmiForm.meaning.value = <a href="intermediate.html">Your excercise plan!</a>
+    document.bmiForm.meaning.value = Please select our intermediate or advanced program.
     }
     if(finalBmi > 25){
-    document.bmiForm.meaning.value = <a href="pace.html">Your excercise plan!</a>
+    document.bmiForm.meaning.value = Please select our beginner program.
     }
     }
     else{
